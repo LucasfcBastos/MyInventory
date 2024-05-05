@@ -168,6 +168,18 @@ main nav button {
     border-radius: 10px;
     font-size: 2vh;
 }
+
+main .text1:focus,
+main .number1:focus,
+main .number2:focus{
+    border: 2px solid #0C66E3;
+    outline: none;
+    color: #0C66E3;
+}
+
+main nav button:active {
+    background-color: #75857C;
+}
 /* ------------------------------------------------- */
 div.fade {
     position: fixed;
