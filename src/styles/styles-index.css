@@ -3,6 +3,7 @@ html, body {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -14,7 +15,7 @@ section {
     display: flex;
     background-color: #0a53b8;
     width: 100%;
-    height: 12.5vh;
+    height: 10vh;
     z-index: 1;
 }
 
@@ -23,16 +24,16 @@ section h1 {
     color: #ffffff;
     margin: 0;
     margin-top: 1.5vh;
-    margin-left: 4vh;
-    font-size: 8vh;
+    margin-left: 3vh;
+    font-size: 6vh;
 }
 
 section button {
     position: absolute;
     background-color: transparent;
     right: 0px;
-    width: 10.5vh;
-    height: 10.5vh;
+    width: 8vh;
+    height: 8vh;
     margin-right: 1vh;
     margin-top: 0.9vh;
     border: 0;
@@ -92,9 +93,11 @@ aside {
     position: fixed;
     display: flex;
     background-color: #eef4f0;
-    width: 25px;
-    height: 82vh;
+    width: 125px;
+    height: 83.9vh;
     z-index: 1;
+    top: 11vh;
+    left: 0;
 }
 
 .hrdeaside {
@@ -102,14 +105,70 @@ aside {
     margin-left: 100%;
     border: 2px solid #DBE6E0;
 }
+
+aside menu {
+    position: absolute;
+    margin-top: 2vh;
+    left: 0px;
+    width: 85px;
+    height: 10px;
+}
+
+aside menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    margin-left: -28px;
+    width: 100px;
+    margin-bottom: 10px;
+    gap: 1vh;
+}
+
+aside menu button {
+    border: none;
+    background-color: #0C66E3;
+    border-radius: 5px;
+    width: 65px;
+    height: 65px;
+}
+
+aside menu img {
+    margin-top: 2px;
+    width: 8vh;
+}
+
+aside menu p {
+    margin: 0;
+    font-size: 1.8vh;
+}
+
+aside button.manimaxi {
+    position:absolute;
+    border: none;
+    background-color: #0A53B8;
+    border: 4px solid #083D82;
+    border-radius: 100%;
+    bottom: 10px;
+    right: -26px;
+    width: 50px;
+    height: 50px;
+}
+
+aside button.manimaxi img {
+    margin-top: 3px;
+    margin-left: 1.5px;
+    width: 30px;
+    height: 30px;
+}
 /* ------------------------------------------------- */
 header {
     position: fixed;
     background-color: #0e57aa;
-    left: 29.4px;
-    width: 97.85%;
+    left: 129.3px;
+    right: 0;
     height: 7.5vh;
-    z-index: 1;
+    z-index: 3;
 }
 
 header button:has(>span){
