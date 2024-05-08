@@ -17,34 +17,34 @@
                     <label class="box">DESATIVAR<input type="checkbox"></label> <br>
                     <label class="label">Descrição do Produto* <br> <input class="text1" type="text" placeholder="EX: ARROZ"></label> <br>
                     <label class="label">Código / Unidade Comercial <br>
-                        <input class="number1" type="number">
+                        <input class="number1" type="number" min="1" max="9999999">
                         <button></button>
                         <input class="text2" type="text" id="texto" readonly> <br>
                     </label>
                     <label class="label">Código / Peso <br>
-                        <input class="number1" type="number">
+                        <input class="number1" type="number" min="1" max="9999999">
                         <button></button>
                         <input class="text2" type="text" id="texto" readonly> <br>
                     </label>
                     <label class="label">Código / Grupo <br>
-                        <input class="number1" type="number">
+                        <input class="number1" type="number" min="1" max="9999999">
                         <button></button>
                         <input class="text2" type="text" id="texto" readonly> <br>
                     </label>
                     <label class="label">Código / Sub-Grupo <br>
-                        <input class="number1" type="number">
+                        <input class="number1" type="number" min="1" max="9999999">
                         <button></button>
                         <input class="text2" type="text" id="texto" readonly> <br>
                     </label>
-                    <label class="label">Código de Barras<br><input class="number2" type="number"></label>
+                    <label class="label">Código de Barras<br><input class="number2" type="number" min="0"></label>
                 </fieldset>
                 <legend>
                     <fieldset class="form2">
                         <span>QUANTIDADES</span>
                         <br>
-                        <label class="label">Quantidade Atual Física*<br><input class="number2" type="number" placeholder="EX: 5"></label><br>
-                        <label class="label">Quantidade Mínima<br><input class="number2" type="number"></label><br>
-                        <label class="label">Quantidade Máxima<br><input class="number2" type="number"></label>
+                        <label class="label">Quantidade Atual Física*<br><input class="number2" type="number" placeholder="EX: 5" min="0"></label><br>
+                        <label class="label">Quantidade Mínima<br><input class="number2" type="number" min="0"></label><br>
+                        <label class="label">Quantidade Máxima<br><input class="number2" type="number" min="0"></label>
                     </fieldset>
                     <fieldset class="form3">
                         <span>RELATORIO</span>

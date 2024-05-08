@@ -94,10 +94,10 @@ aside {
     display: flex;
     background-color: #eef4f0;
     width: 125px;
-    height: 83.9vh;
+    height: 84vh;
     z-index: 1;
-    top: 11vh;
-    left: 0;
+    top: 10.9vh;
+    left: 0px;
 }
 
 .hrdeaside {

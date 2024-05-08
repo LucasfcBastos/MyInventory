@@ -180,6 +180,12 @@ main .number2:focus{
 main nav button:active {
     background-color: #75857C;
 }
+
+main input[type=number]::-webkit-outer-spin-button,
+main input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 /* ------------------------------------------------- */
 div.fade {
     position: fixed;
@@ -271,8 +277,8 @@ aside {
     position: fixed;
     display: flex;
     background-color: #eef4f0;
-    width: 25px;
-    height: 82vh;
+    width: 24px;
+    height: 84vh;
     z-index: 1;
 }
 
@@ -361,7 +367,7 @@ article.right span {
 header {
     position: fixed;
     background-color: #0e57aa;
-    left: 29px;
+    left: 28px;
     right: 0;
     height: 7.5vh;
 }
