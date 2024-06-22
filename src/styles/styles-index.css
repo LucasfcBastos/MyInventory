@@ -15,7 +15,7 @@ section {
     display: flex;
     background-color: #0a53b8;
     width: 100%;
-    height: 10vh;
+    height: 6vh;
     z-index: 1;
 }
 
@@ -23,9 +23,9 @@ section h1 {
     cursor: pointer;
     color: #ffffff;
     margin: 0;
-    margin-top: 1.5vh;
+    margin-top: 1.45vh;
     margin-left: 3vh;
-    font-size: 6vh;
+    font-size: 3vh;
 }
 
 section button {
@@ -45,14 +45,14 @@ section span {
     border-radius: 100%;
     top: 0px;
     right: 0px;
-    width: 95%;
-    height: 94%;
+    width: 45%;
+    height: 45%;
     border: 0.4vh solid black;
 }
 
 .hrdesection {
     margin: 0;
-    border: 0.6vh solid #083D82;
+    border: 0.5vh solid #083D82;
 }
 /* ------------------------------------------------- */
 footer {
@@ -93,24 +93,23 @@ aside {
     position: fixed;
     display: flex;
     background-color: #eef4f0;
-    width: 125px;
-    height: 84vh;
+    width: 100px;
+    height: 88.2vh;
     z-index: 1;
-    top: 10.9vh;
+    top: 6.9vh;
     left: 0px;
 }
 
 .hrdeaside {
     margin: 0;
     margin-left: 100%;
-    border: 2px solid #DBE6E0;
+    border: 3.9px solid #DBE6E0;
 }
 
 aside menu {
     position: absolute;
     margin-top: 2vh;
     left: 0px;
-    width: 85px;
     height: 10px;
 }
 
@@ -119,53 +118,61 @@ aside menu li {
     flex-direction: column;
     align-items: center;
     top: 0;
-    margin-left: -28px;
+    margin-left: -40px;
     width: 100px;
     margin-bottom: 10px;
     gap: 1vh;
 }
 
 aside menu button {
+    cursor: pointer;
     border: none;
     background-color: #0C66E3;
     border-radius: 5px;
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
 }
 
 aside menu img {
     margin-top: 2px;
-    width: 8vh;
+    width: 4cap;
 }
 
 aside menu p {
+    cursor: default;
     margin: 0;
+    margin-bottom: 1vh;
     font-size: 1.8vh;
 }
 
 aside button.manimaxi {
-    position:absolute;
+    cursor: pointer;
+    position: absolute;
     border: none;
     background-color: #0A53B8;
     border: 4px solid #083D82;
     border-radius: 100%;
     bottom: 10px;
-    right: -26px;
+    right: -28px;
     width: 50px;
     height: 50px;
 }
 
+aside button.manimaxi:hover {
+    background-color:#083D82;
+}
+
 aside button.manimaxi img {
-    margin-top: 3px;
-    margin-left: 1.5px;
-    width: 30px;
-    height: 30px;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+    width: 25px;
+    height: 25px;
 }
 /* ------------------------------------------------- */
 header {
     position: fixed;
     background-color: #0e57aa;
-    left: 129.3px;
+    left: 106px;
     right: 0;
     height: 7.5vh;
     z-index: 3;
@@ -203,24 +210,27 @@ article.left {
     align-items: center;
     justify-content: start;
     position: absolute;
-    height: 100%;
+    height: 7.5vh;
     margin-left: 1.5vh;
+    background-color: rgb(255, 0, 0);
 }
 
 article.right {
+    position: absolute;
+    background-color: yellow;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: start;
     position: absolute;
     right: 0;
-    height: 100%;
-    margin-left: 1.5vh;
+    height: 7.5vh;
+    width: 41vh;
 }
 
 article.left p {
     font-weight: bold;
     color: #ffffff;
-    font-size: 4.5vh;
+    font-size: 3vh;
     margin: 0;
     margin-right: 1.5vh;
 }
@@ -232,7 +242,7 @@ article.right span {
     width: 88%;
     height: 87%;
     margin-top: -2.5vh;
-    margin-left: -2.5vh;
+    margin-left: -36.8vh;
     border: 0.4vh solid black;
 }
 
@@ -246,7 +256,7 @@ header button:not(:has(>img)):not(:has(>span)) {
     width: 25vh;
     height: 5vh;
     margin-right: 1.5vh;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 
 header button:has(>img):hover{
